@@ -5,7 +5,7 @@ use uuid::Uuid;
 pub struct User {
     pub id: Uuid,
     pub email: String,
-    pub Password: String,
+    pub password: String,
 }
 
 #[derive(Deserialize)]
